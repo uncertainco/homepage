@@ -1,1 +1,1 @@
-Please be updated with slack for regular info
+Please be updated on slack for regular info
