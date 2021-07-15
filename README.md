@@ -1,0 +1,1 @@
+Please be updated with slack for regular info
