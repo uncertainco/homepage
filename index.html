@@ -120,6 +120,10 @@
             margin-left: 90px;
             transform: translateY(-50%);
         }
+         #mobile-menu-opener {
+         display: none;
+         visibility: hidden;
+         }
         @media (max-width:720px){
             .left-title {
                font-size: 28px;
@@ -127,6 +131,9 @@
                left: 40px !important;
                top:50%  !important;
                margin-left: 0px;
+            }
+            .icons-1 {
+                display: block;
             }
             .bg{
                display: block;
@@ -139,6 +146,19 @@
             .logo-container img {
                 visibility: hidden;
             }
+            #mobile-menu-opener {
+               display: block;
+               visibility: visible;
+               background: none;
+               outline: none;
+               border: none;
+               color: #fff;
+               font-size: 22px;
+               position: absolute;
+               right: 10px;
+               bottom: 25px;
+            }
+            
         }
     </style>
    </head>
@@ -166,11 +186,10 @@
             <img src="Images/navbar-logo.png" class="logo-new" width="120px"alt="">
                     </a>
                                                     <span class="left-title">Uncertain Co.</span>
-
+               <button id="mobile-menu-opener" class="fas fa-bars" title="Main menu" ></button>                  
                <nav id="access" class="navigation-bar" itemtype="https://schema.org/SiteNavigationElement" itemscope="">
-
                   <!-- this element is need in HTML even if menu is disabled -->
-                  <div class="menu-container loaded" style="">
+               <div class="menu-container loaded" style="">
                      <ul id="menu-main-menu" class="top-menu with-effect menu--ferdinand opener-icons-on">
                         <li id="menu-item-11951" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11951 normal-menu"><a href="index.html#home" style="line-height: 80px; height: 80px;"><span><em>Home</em></span></a></li>
                         <li id="menu-item-11946" class="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-11946 normal-menu"><a href="index.html#about" style="line-height: 80px; height: 80px;"><span><em>About Us</em></span></a></li>
